@@ -236,9 +236,25 @@ input[type="range"]::-webkit-slider-thumb:hover{
 
 @media (max-width:720px) {
     html{
-        font-size: 9.2px;
+        font-size: 7px;
     }
 
+    .disp_container .copy{
+        position:absolute;
+        left: 66vw;
+        top: 16vh;
+      
+     
+    
+    
+    } 
+    #tooltip{
+     
+        left: 64vw;
+        top: 12vh;
+    
+    }
+    
     #content{
         height: 68vh;
     width: 44vw;
