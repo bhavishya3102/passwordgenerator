@@ -239,35 +239,33 @@ input[type="range"]::-webkit-slider-thumb:hover{
         font-size: 7px;
     }
 
-    .disp_container .copy{
-        position:absolute;
-        left: 66vw;
-        top: 16vh;
+    .disp_container .copy {
+        position: absolute;
+        left: 74vw;
+        top: 28vh;
+    }
       
-     
-    
-    
-    } 
+
     #tooltip{
      
-        left: 64vw;
-        top: 12vh;
+        left: 73vw;
+        top: 23vh;
     
     }
     
-    #content{
-        height: 68vh;
-    width: 44vw;
+    #content {
+        height: 44vh;
+        width: 70vw;
     }
 
-    .disp_container{
-        height: 8vh;
-    width: 47vw;
+    .disp_container {
+        height: 7vh;
+        width: 74vw;
     }
 
     #generate_pswd{
         height: 6vh;
-        width: 45vw;
+        width: 69vw;
     }
 
 
