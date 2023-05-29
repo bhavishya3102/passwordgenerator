@@ -234,7 +234,7 @@ input[type="range"]::-webkit-slider-thumb:hover{
 
 
 
-@media (max-width:720px) {
+@media (max-width:800px) {
     html{
         font-size: 7px;
     }
@@ -272,19 +272,23 @@ input[type="range"]::-webkit-slider-thumb:hover{
     
 }
 
-@media (min-width:720px) and (max-width:1200px){
+@media (min-width:800px) and (max-width:1250px){
     html{
         font-size: 7px;
     }
 
     #content{
-        height: 61vh;
-    width: 44vw;
+        height: 32vh;
+    width: 50vw;
     }
 
     .disp_container{
         height: 6vh;
-    width: 47vw;
+    width: 52vw;
+    }
+
+    .container{
+        margin-top: -320px;
     }
 
     #generate_pswd{
@@ -292,6 +296,25 @@ input[type="range"]::-webkit-slider-thumb:hover{
         width: 45vw;
     }
 
+    .disp_container .copy {
+      
+        left: 69vw;
+        top: 34vh;
 
+    }
+
+
+    
+
+#tooltip {
+    
+    left: 68vw;
+    top: 31vh;
+}
+
+#generate_pswd {
+    height: 4.5vh;
+    width: 50vw;
+}
     
 }
